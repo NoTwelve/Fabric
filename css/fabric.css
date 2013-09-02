@@ -1,0 +1,159 @@
+/* FABRIC - R1 ; No12 ; FABRIC.CSS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* IMAGE RESIZER RESET
+`````````````````````````````````````````````````````````````````````````` */
+#resolution{
+	display: none;
+	font-size: 1px;
+}
+
+/* @ 1024px
+`````````````````````````````````````````````````````````````````````````` */
+@media screen and (max-width: 1024px) {
+
+#resolution { font-size: 1024px; } /* Pass image append var*/
+	
+nav#navmain li { 
+	float: left;
+	text-align: center;
+	padding: 0.75em 2em;
+}
+
+}
+
+/* @ 640px
+`````````````````````````````````````````````````````````````````````````` */
+@media screen and (max-width: 640px) {
+
+#resolution { font-size: 640px; } /* Pass image append var*/
+
+/* TOGLE NAV */
+nav#navmain {
+	position: fixed;
+	min-height: 15px;
+	top: 0;
+	width: 100%;
+	opacity: 1;
+	background: #fff;
+	font-size: 1em;
+}
+
+nav#navmain ul {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	padding: 40px 0;
+	padding-bottom: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #111 url(../img/menu.png) no-repeat center center;
+	/*transition for smooth hover animation*/
+	transition: all 0.30s;
+	/* Browser specific tags, IE has to be IE 10 or up to work */
+	-o-transition: 0.30s;
+	-ms-transition: 0.30s;
+	-moz-transition: 0.30s;
+	-webkit-transition: 0.30s;
+}
+
+nav#navmain li {
+	display: none; /* hide all <li> items */
+	padding: 1%;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	background: #141414;
+	width: 100%;
+	float: left;
+}
+
+nav#navmain .current { display: block; } /* show only current <li> item */
+
+nav#navmain a {
+	display: block;
+	text-align: center;
+}
+
+nav#navmain .current a { background: none; }
+
+nav#navmain ul:hover li { display: block; }
+
+nav#navmain ul:hover { background: #111 url(../img/check.png) no-repeat  50% 15px; }
+
+/* IMG */
+.banner img.landing { margin-top: 2.75em; }
+
+/* CONTENT */
+h1 { text-align: center; }
+
+.main, .about, .work, .contact, .services, .footer { 
+	padding: 4% 0 4% 0; 
+	max-width: 90%;
+}
+
+.one-left, .two-left {
+	width: 100%;
+	float: none;
+	margin: 0 auto;
+	padding-bottom: 5%;
+}
+
+.three-right {
+	width: 100%;
+    float: none;
+    margin: 0 auto;
+}
+
+article {
+	width: 100%;
+	margin: 0;
+	float: left;
+}
+
+aside {
+    width: 100%;
+    float: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* CONTACT FORM */
+#name, #email, #comments{ float: none; }
+
+button.form_button { float: none; }
+
+fieldset {
+	border: none;
+	padding: 0;
+	margin: 5% 5% 0 0;
+}
+
+}
+
+/* @ 480px
+`````````````````````````````````````````````````````````````````````````` */
+@media screen and (max-width: 480px) {
+
+#resolution { font-size: 480px; } /* Pass image append var*/
+
+/* CONTACT FORM */
+#name, #email, #comments{
+	padding: 1em 0.25em;
+}
+
+/* FOOTER */
+button.top {
+	float: left;
+	margin-right: 5%;
+}
+
+}
+
+/* @ 320px
+`````````````````````````````````````````````````````````````````````````` */
+@media screen and (max-width: 320px) {
+
+#resolution { font-size: 320px; } /* Pass image append var*/
+
+}

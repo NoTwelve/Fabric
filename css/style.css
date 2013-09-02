@@ -1,0 +1,250 @@
+/* FABRIC - R1 ; No12 ; STYLE.CSS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* FABRIC RESET
+`````````````````````````````````````````````````````````````````````````` */
+html, body, nav, section, article, aside, div, h1, h3, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td 
+{ margin: 0; padding: 0; }
+
+body { color: #000; font: 14px/20px Helvetica, sans-serif }
+
+h1 { font-size: 36px; line-height: 36px; margin-bottom: 18px; font-family: Helvetica, sans-serif;} 
+
+a { text-decoration: none; color: #404040; }
+
+a:hover { text-decoration: none; color: #999; } 
+
+img { border: none; }
+
+p, ul, ol, dl, table { margin-bottom: 0px; }
+
+ul, ol, dd { margin: 0; }
+
+.clearing { clear: both; }
+.clearfix { overflow: hidden; }
+.last { margin-bottom: 0; }
+.screenReader { left: -9999px; position: absolute; top: -9999px; }
+
+/* STRUCTURE
+`````````````````````````````````````````````````````````````````````````` */
+h1 { font-family: 'Lora', serif; }
+
+p { font: 1em/1.75em 'Droid Sans', sans-serif; }
+
+/* Sections */
+section#landing, section#about, section#work, section#services, section#contact, footer { width: 100%; }
+
+/* Section Style */
+section#landing, section#work, section#contact { background: #fff; }
+
+section#about, section#services { background: #DCDCDC; }
+
+footer { background: #000; }
+
+/* Inner Containers */
+.main, .about, .work, .contact, .services, .footer {
+	margin: 0 auto; 
+	width: 70em; 
+	padding: 4% 0 4% 0; 
+	overflow: auto; 
+	max-width: 98%;
+}
+
+/* Content */
+.one-left, .two-left {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+
+.three-right {
+	width: 30%;
+    float: right;
+}
+
+article {
+	width: 60%;
+	margin-right: 5%;
+	float: left;
+	padding: 4% 0 4% 0;
+}
+
+aside {
+    width: 35%;
+    float: left;
+    margin-bottom: 1%;
+    padding: 4% 0 4% 0;
+}
+
+/* HEADER 
+`````````````````````````````````````````````````````````````````````````` */
+header {
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+/* IMG
+`````````````````````````````````````````````````````````````````````````` */
+.banner img.landing {
+	width: 100%;
+	top: 0;
+	margin-top: 50px;
+}
+
+.banner img.section {
+	width: 100%;
+	top: 0;
+}
+
+img.example { width: 100%; }
+
+/* NAV 
+`````````````````````````````````````````````````````````````````````````` */
+nav#navmain {
+	text-align: center;
+	font: 1em 'Anton', sans-serif;
+    background-color: #000;
+    text-align: center;
+    padding-top: 0.5em;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	position: fixed;
+	width: 100%;
+}
+ 
+nav#navmain li { 
+	float: left;
+	text-align: center;
+	padding: 0.75em 5em;
+}
+
+nav#navmain ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+nav#navmain li a{
+	text-decoration: none;
+	color: #fff;
+} 
+
+nav#navmain li a:hover{
+	text-decoration: none;
+	color: #555;
+} 
+
+/* CONTACT FORM 
+`````````````````````````````````````````````````````````````````````````` */
+#name, #email, #comments {
+	font: 1em 'Droid Sans', sans-serif;
+	display: block;
+	width: 100%;
+	height: 1em;
+	margin-bottom: 1em;
+	border: 0.15em #000 solid;
+	padding: 1em 0.5em;
+	float: right;
+	font-family: sans-serif;
+}
+
+#name:hover, #email:hover, #comments:hover { border: 0.15em #555 solid; }
+
+#comments{ height: 100px; }
+
+fieldset {
+	padding: 5% 10% 5% 4%;
+	border: none;
+	border-right: 1px #000 dashed;
+}
+
+button.form_button {
+	font: 1em 'Anton', sans-serif;
+	float: right;
+	color: #000;
+	text-transform: uppercase;
+	border: 0.15em #000 solid;
+	padding: 0.5em 5em;
+	cursor: pointer;
+}
+
+button.form_button:hover {
+	border: 0.15em #555 solid;
+	color: #555;
+}
+
+.statusMessage { display: none; }
+
+/* SOCIAL 
+`````````````````````````````````````````````````````````````````````````` */
+.social {
+	margin: 0 auto;
+	padding-top: 10%;
+}
+
+.social ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social ul li{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	padding-right: 10%;
+	float: left;
+}
+
+.social img {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+/* FOOTER 
+`````````````````````````````````````````````````````````````````````````` */
+button.top {
+	font: 1em 'Anton', sans-serif;
+	background: #fff;
+	border: none;
+	text-transform: uppercase;
+	margin: 0 auto;
+	color: #000;
+	width: 10em;
+	float: right;
+	cursor: pointer;
+}
+
+button.top:hover{ background: #555; }
+
+.footer p {
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+	color: #fff;
+}
+
+/* TRANSITIONS AND TRANSFORMS 
+`````````````````````````````````````````````````````````````````````````` */
+a, #name, #email, #comments, button.form_button, .social img, button.top {  
+	/* Transition: Smooth hover animation */
+	transition: all 0.15s;
+	/* Browser specific tags, IE has to be 10 or up to work */
+	-ms-transition: 0.15s; /* IE 10 */
+	-webkit-transition: 0.15s; /* Safari and Chrome */
+	-moz-transition: 0.15s; /* Firefox */
+	-o-transition: 0.15s; /* Opera */
+}
+
+.social img:hover {
+	/* Transform: Move elements up on hover */
+	transform: translateY(-5px);
+	/* Browser specific tags, IE has to be 9 or up */
+	-ms-transform: translateY(-5px); /* IE 9 only supports 2D transforms */
+	-webkit-transform: translateY(-5px); /* Safari and Chrome */
+	-moz-transform: translateY(-5px); /* Firefox */
+	-o-transform: translateY(-5px); /* Opera */
+}
