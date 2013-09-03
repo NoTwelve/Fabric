@@ -13,6 +13,21 @@ Instead of spending hours learning these builds just to get your content up and 
 Quickly mobilize your content &amp; the rest is up to you to do what your design dictates.
 
 
+Contents
+======
+1. Basic HTML5 structure file.
+2. Two CSS files.
+3. jQuery folder with sample .js files including fabric.js which contains a simple responsive image functionality script.
+4. Image folder with sample images and a social icon set. 
+5. README 
+6. LICENSE
+
+
+No Twelve
+======
+
+Fabric was built by No Twelve, a collaborative partnership between Anton Simanov and Paul Klepac.
+No Twelve focuses on designing and developing web products as simple as <a href="http://fabric.notwelve.com/">Fabric</a> and as complicated as <a href="http://pixelnautpress.com/">Pixelnaut Press</a>, an online publication aimed at creative professionals.
 
 
 
