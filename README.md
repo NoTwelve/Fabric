@@ -26,7 +26,7 @@ Contents
 No Twelve
 ======
 
-Fabric was built by No Twelve, a collaborative partnership between Anton Simanov and Paul Klepac.
+Fabric was built by <a href="http://no12creative.com/">No Twelve</a>, a collaborative partnership between Anton Simanov and Paul Klepac.
 No Twelve focuses on designing and developing web products as simple as <a href="http://fabric.notwelve.com/">Fabric</a> and as complicated as <a href="http://pixelnautpress.com/">Pixelnaut Press</a>, an online publication aimed at creative professionals.
 
 
