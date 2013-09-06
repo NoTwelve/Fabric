@@ -1,6 +1,15 @@
-/*!
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  * fabric.js
- */
+ * http://fabric.notwelve.com/
+ * 
+ * Copyright 2012 NoTwelve
+ * 
+ * Licensed under the MIT License (MIT)
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* f<img> Responsive Image Loader
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 $(function() { // Responsive loading of various images based on resolution
 	var res = $('#resolution').css('font-size').slice(0,-2);
@@ -23,6 +32,9 @@ $(function() { // Responsive loading of various images based on resolution
 
 });
 
+
+/* f[form] Simple Contact Form
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 $(function() { //Contact Form
 	$('#contactform').submit( submitForm );
